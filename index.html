@@ -16,7 +16,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="/style.css" />
     <title>Nexora - Modern SaaS Solution</title>
   </head>
@@ -24,13 +23,13 @@
     class="font-sans bg-gray-50 text-gray-900 dark:bg-neutral-950 dark:text-neutral-50"
   >
     <header
-      class="sticky top-0 z-50 w-full backdrop-blur-lg transition-all duration-300 px-10 bg-background/80 shadow-sm"
+      class="sticky top-0 z-50 w-full backdrop-blur-lg transition-all duration-300 px-10 bg-white/80 dark:bg-neutral-950/80 shadow-sm"
     >
       <div class="flex h-16 items-center justify-between">
         <a href="/"
           ><div class="flex items-center gap-2 font-bold">
             <div
-              class="size-8 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-primary-foreground"
+              class="size-8 rounded-lg bg-gradient-to-br from-blue-600 to-blue-500 flex items-center justify-center text-white dark:text-neutral-900"
             >
               N
             </div>
@@ -39,20 +38,20 @@
         >
         <nav class="hidden md:flex gap-8">
           <a
-            class="text-base font-medium text-muted-foreground transition-colors hover:text-foreground"
-            href="/features"
+            class="text-base font-medium text-neutral-500 dark:text-neutral-400 transition-colors hover:text-neutral-900 dark:hover:text-neutral-50"
+            href="#features"
             >Features</a
           ><a
-            class="text-base font-medium text-muted-foreground transition-colors hover:text-foreground"
-            href="/testimonials"
+            class="text-base font-medium text-neutral-500 dark:text-neutral-400 transition-colors hover:text-neutral-900 dark:hover:text-neutral-50"
+            href="#testimonials"
             >Testimonials</a
           ><a
-            class="text-base font-medium text-muted-foreground transition-colors hover:text-foreground"
-            href="/pricing"
+            class="text-base font-medium text-neutral-500 dark:text-neutral-400 transition-colors hover:text-neutral-900 dark:hover:text-neutral-50"
+            href="#pricing"
             >Pricing</a
           ><a
-            class="text-base font-medium text-muted-foreground transition-colors hover:text-foreground"
-            href="/faq"
+            class="text-base font-medium text-neutral-500 dark:text-neutral-400 transition-colors hover:text-neutral-900 dark:hover:text-neutral-50"
+            href="#faq"
             >FAQ</a
           >
         </nav>
@@ -60,7 +59,7 @@
           <button
             data-role="theme-toggle"
             data-slot="button"
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-9 rounded-full cursor-pointer"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 hover:bg-neutral-100 dark:hover:bg-neutral-800/50 dark:hover:bg-accent/50 size-9 rounded-full cursor-pointer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -102,13 +101,13 @@
 
             <span class="sr-only">Toggle theme</span></button
           ><a
-            class="text-base font-medium text-muted-foreground transition-colors hover:text-foreground"
-            href="/login"
+            class="text-base font-medium text-neutral-500 dark:text-neutral-400 transition-colors hover:text-neutral-900 dark:hover:text-neutral-50"
+            href="/"
             >Log in</a
-          ><a href="/signup"
+          ><a href="/"
             ><button
               data-slot="button"
-              class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-9 px-4 has-[&gt;svg]:px-3 rounded-full text-base group cursor-pointer py-5"
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 bg-blue-600 dark:bg-blue-500 text-white dark:text-neutral-900 shadow-xs hover:bg-blue-700 dark:hover:bg-blue-600 h-9 px-4 has-[&gt;svg]:px-3 rounded-full text-base group cursor-pointer py-5"
             >
               Get Started<svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +129,7 @@
           <button
             data-role="theme-toggle"
             data-slot="button"
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-9 rounded-full cursor-pointer"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800/50 dark:hover:bg-accent/50 size-9 rounded-full cursor-pointer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -172,7 +171,7 @@
           ><button
             id="menuButton"
             data-slot="button"
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-9"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800/50 dark:hover:bg-accent/50 size-9"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -214,21 +213,21 @@
 
       <div
         id="mobileMenu"
-        class="hidden md:hidden absolute top-16 inset-x-0 bg-white dark:bg-[#262626] border-b"
+        class="hidden md:hidden absolute top-16 inset-x-0 bg-white dark:bg-neutral-800 border-b"
         style="opacity: 1; transform: none"
       >
         <div class="py-4 px-5 flex flex-col gap-4">
-          <a class="py-2 text-sm font-medium" href="/features">Features</a
-          ><a class="py-2 text-sm font-medium" href="/testimonials"
+          <a class="py-2 text-sm font-medium" href="#features">Features</a
+          ><a class="py-2 text-sm font-medium" href="#testimonials"
             >Testimonials</a
-          ><a class="py-2 text-sm font-medium" href="/pricing">Pricing</a
-          ><a class="py-2 text-sm font-medium" href="/faq">FAQ</a>
+          ><a class="py-2 text-sm font-medium" href="#pricing">Pricing</a
+          ><a class="py-2 text-sm font-medium" href="#faq">FAQ</a>
           <div class="flex flex-col gap-2 pt-2 border-t">
-            <a class="py-2 text-sm font-medium" href="/login">Log in</a
-            ><a href="/signup"
+            <a class="py-2 text-sm font-medium" href="#">Log in</a
+            ><a href="#"
               ><button
                 data-slot="button"
-                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-9 px-4 py-2 has-[&gt;svg]:px-3 rounded-full"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 bg-blue-600 dark:bg-blue-500 text-white dark:text-neutral-900 shadow-xs hover:bg-blue-700 dark:hover:bg-blue-600 h-9 px-4 py-2 has-[&gt;svg]:px-3 rounded-full"
               >
                 Get Started<svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -250,19 +249,2631 @@
       </div>
     </header>
 
-    <section
-      class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white"
-    >
-      <h2 class="text-4xl font-extrabold mb-4">Supercharge Your Workflow</h2>
-      <p class="text-lg mb-6">
-        YourProductName helps teams stay organized, efficient, and ahead of the
-        curve.
-      </p>
-      <a
-        href="#signup"
-        class="px-6 py-3 bg-white text-blue-600 font-semibold rounded shadow hover:bg-gray-100"
-        >Get Started</a
+    <main class="flex-1">
+      <section class="w-full py-20 overflow-hidden">
+        <div class="px-4 md:px-6 relative py-5">
+          <div
+            class="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-black bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#1f1f1f_1px,transparent_1px),linear-gradient(to_bottom,#1f1f1f_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)]"
+          ></div>
+          <div
+            class="text-center max-w-3xl mx-auto mb-12"
+            style="opacity: 1; transform: none"
+          >
+            <span
+              data-slot="badge"
+              class="inline-flex items-center justify-center border w-fit whitespace-nowrap shrink-0 [&amp;&gt;svg]:size-3 gap-1 [&amp;&gt;svg]:pointer-events-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 transition-[color,box-shadow] overflow-hidden border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-white [a&amp;]:hover:bg-neutral-200 dark:hover:bg-neutral-700 mb-4 rounded-full px-4 py-1.5 text-sm font-medium"
+              >Launching Soon</span
+            >
+            <h1
+              class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 bg-clip-text bg-gradient-to-r from-neutral-900 to-neutral-700 dark:from-neutral-50 dark:to-neutral-200"
+            >
+              Elevate Your Workflow with Nexora
+            </h1>
+            <p
+              class="text-lg md:text-xl text-neutral-500 dark:text-neutral-400 mb-8 max-w-2xl mx-auto"
+            >
+              The all-in-one platform that helps teams collaborate, automate,
+              and deliver exceptional results. Streamline your processes and
+              focus on what matters most.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <button
+                data-slot="button"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 bg-blue-600 dark:bg-blue-500 text-white dark:text-neutral-900 shadow-xs hover:bg-blue-700 dark:hover:bg-blue-600 has-[&gt;svg]:px-4 rounded-full h-12 px-8 text-base cursor-pointer group"
+              >
+                Start Free Trial<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-right group-hover:translate-x-1 transition-all ease-in-out duration-200 size-4"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg></button
+              ><button
+                data-slot="button"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-blue-600 focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-600/20 dark:aria-invalid:ring-red-600/40 aria-invalid:border-red-600 border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-950 shadow-sm hover:bg-neutral-100 dark:hover:bg-neutral-800 hover:text-neutral-900 dark:hover:text-white dark:bg-neutral-800/30 dark:border-neutral-800 dark:hover:bg-neutral-800/50 has-[>svg]:px-4 rounded-full h-12 px-8 text-base cursor-pointer"
+              >
+                Book a Demo
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-center gap-4 mt-6 text-sm text-neutral-500 dark:text-neutral-400"
+            >
+              <div class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-check size-4 text-blue-600"
+                >
+                  <path d="M20 6 9 17l-5-5"></path></svg
+                ><span>No credit card</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-check size-4 text-blue-600"
+                >
+                  <path d="M20 6 9 17l-5-5"></path></svg
+                ><span>14-day trial</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-check size-4 text-blue-600"
+                >
+                  <path d="M20 6 9 17l-5-5"></path></svg
+                ><span>Cancel anytime</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative mx-auto max-w-5xl"
+            style="opacity: 1; transform: none"
+          >
+            <div
+              class="rounded-xl overflow-hidden shadow-2xl border border-neutral-200 dark:border-neutral-800/40 bg-gradient-to-b from-background to-muted/20"
+            >
+              <img
+                alt="Nexora dashboard"
+                width="1280"
+                height="720"
+                decoding="async"
+                data-nimg="1"
+                class="w-full h-auto"
+                src="/images/dashboard.webp"
+                style="color: transparent"
+              />
+              <div
+                class="absolute inset-0 rounded-xl ring-1 ring-inset ring-black/10 dark:ring-white/10"
+              ></div>
+            </div>
+            <div
+              class="absolute -bottom-6 -right-6 -z-10 h-[300px] w-[300px] rounded-full bg-gradient-to-br from-blue-600/30 to-neutral-800/30 blur-3xl opacity-70"
+            ></div>
+            <div
+              class="absolute -top-6 -left-6 -z-10 h-[300px] w-[300px] rounded-full bg-gradient-to-br from-secondary/30 to-primary/30 blur-3xl opacity-70"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="w-full py-12 border-y bg-neutral-100 dark:bg-neutral-800/30"
       >
-    </section>
+        <div class="px-4 md:px-6">
+          <div
+            class="flex flex-col items-center justify-center space-y-4 text-center"
+          >
+            <p
+              class="text-base font-medium text-neutral-500 dark:text-neutral-400"
+            >
+              Trusted by innovative companies worldwide
+            </p>
+            <div
+              class="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16"
+            >
+              <img
+                alt="Company logo 1"
+                loading="lazy"
+                width="120"
+                height="60"
+                decoding="async"
+                data-nimg="1"
+                class="w-auto opacity-70 transition-all hover:opacity-100 hover:grayscale-0"
+                src="/images/meta-logo.webp"
+                style="color: transparent"
+              /><img
+                alt="Company logo 2"
+                loading="lazy"
+                width="120"
+                height="60"
+                decoding="async"
+                data-nimg="1"
+                class="w-auto opacity-70 transition-all hover:opacity-100 hover:grayscale-0"
+                src="/images/meta-logo.webp"
+                style="color: transparent"
+              /><img
+                alt="Company logo 3"
+                loading="lazy"
+                width="120"
+                height="60"
+                decoding="async"
+                data-nimg="1"
+                class="w-auto opacity-70 transition-all hover:opacity-100 hover:grayscale-0"
+                src="/images/meta-logo.webp"
+                style="color: transparent"
+              /><img
+                alt="Company logo 4"
+                loading="lazy"
+                width="120"
+                height="60"
+                decoding="async"
+                data-nimg="1"
+                class="w-auto opacity-70 transition-all hover:opacity-100 hover:grayscale-0"
+                src="/images/meta-logo.webp"
+                style="color: transparent"
+              /><img
+                alt="Company logo 5"
+                loading="lazy"
+                width="120"
+                height="60"
+                decoding="async"
+                data-nimg="1"
+                class="w-auto opacity-70 transition-all hover:opacity-100 hover:grayscale-0"
+                src="/images/meta-logo.webp"
+                style="color: transparent"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---Features-->
+      <section id="features" class="w-full py-20 md:py-32">
+        <div class="px-4 md:px-6">
+          <div
+            class="flex flex-col items-center justify-center space-y-4 text-center mb-12"
+          >
+            <span
+              data-slot="badge"
+              class="inline-flex items-center justify-center border w-fit whitespace-nowrap shrink-0 [&amp;&gt;svg]:size-3 gap-1 [&amp;&gt;svg]:pointer-events-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 transition-[color,box-shadow] overflow-hidden border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-white [a&amp;]:hover:bg-neutral-200 dark:hover:bg-neutral-700 mb-4 rounded-full px-4 py-1.5 text-sm font-medium"
+            >
+              Features
+            </span>
+            <h2
+              class="text-3xl md:text-4xl font-bold tracking-tight text-neutral-900 dark:text-neutral-50"
+            >
+              Everything You Need to Succeed
+            </h2>
+            <p
+              class="max-w-[800px] text-neutral-500 dark:text-neutral-400 md:text-lg"
+            >
+              Our comprehensive platform provides all the tools you need to
+              streamline your workflow, boost productivity, and achieve your
+              goals.
+            </p>
+          </div>
+
+          <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <!-- Card 1 -->
+            <div
+              class="flex flex-col gap-6 rounded-xl border border-neutral-200 dark:border-neutral-800 py-6 shadow-sm h-full overflow-hidden bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50"
+            >
+              <div class="p-6 flex flex-col h-full">
+                <div
+                  class="size-10 rounded-full bg-blue-600/10 dark:bg-blue-500/20 flex items-center justify-center text-blue-600 dark:text-blue-500 mb-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-zap size-5"
+                  >
+                    <path
+                      d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Smart Automation</h3>
+                <p class="text-neutral-500 dark:text-neutral-400">
+                  Automate repetitive tasks and workflows to save time and
+                  reduce errors.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="flex flex-col gap-6 rounded-xl border border-neutral-200 dark:border-neutral-800 py-6 shadow-sm h-full overflow-hidden bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50"
+            >
+              <div class="p-6 flex flex-col h-full">
+                <div
+                  class="size-10 rounded-full bg-blue-600/10 dark:bg-blue-500/20 flex items-center justify-center text-blue-600 dark:text-blue-500 mb-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-chart-no-axes-column-increasing size-5"
+                  >
+                    <line x1="12" x2="12" y1="20" y2="10"></line>
+                    <line x1="18" x2="18" y1="20" y2="4"></line>
+                    <line x1="6" x2="6" y1="20" y2="16"></line>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Advanced Analytics</h3>
+                <p class="text-neutral-500 dark:text-neutral-400">
+                  Gain valuable insights with real-time data visualization and
+                  reporting.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="flex flex-col gap-6 rounded-xl border border-neutral-200 dark:border-neutral-800 py-6 shadow-sm h-full overflow-hidden bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50"
+            >
+              <div class="p-6 flex flex-col h-full">
+                <div
+                  class="size-10 rounded-full bg-blue-600/10 dark:bg-blue-500/20 flex items-center justify-center text-blue-600 dark:text-blue-500 mb-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users size-5"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Team Collaboration</h3>
+                <p class="text-neutral-500 dark:text-neutral-400">
+                  Work together seamlessly with integrated communication tools.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div
+              class="flex flex-col gap-6 rounded-xl border border-neutral-200 dark:border-neutral-800 py-6 shadow-sm h-full overflow-hidden bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50"
+            >
+              <div class="p-6 flex flex-col h-full">
+                <div
+                  class="size-10 rounded-full bg-blue-600/10 dark:bg-blue-500/20 flex items-center justify-center text-blue-600 dark:text-blue-500 mb-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-shield size-5"
+                  >
+                    <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Enterprise Security</h3>
+                <p class="text-neutral-500 dark:text-neutral-400">
+                  Keep your data safe with end-to-end encryption and compliance
+                  features.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div
+              class="flex flex-col gap-6 rounded-xl border border-neutral-200 dark:border-neutral-800 py-6 shadow-sm h-full overflow-hidden bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50"
+            >
+              <div class="p-6 flex flex-col h-full">
+                <div
+                  class="size-10 rounded-full bg-blue-600/10 dark:bg-blue-500/20 flex items-center justify-center text-blue-600 dark:text-blue-500 mb-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-layers size-5"
+                  >
+                    <path
+                      d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"
+                    ></path>
+                    <path
+                      d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"
+                    ></path>
+                    <path
+                      d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Seamless Integration</h3>
+                <p class="text-neutral-500 dark:text-neutral-400">
+                  Connect with your favorite tools through our extensive API
+                  ecosystem.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div
+              class="flex flex-col gap-6 rounded-xl border border-neutral-200 dark:border-neutral-800 py-6 shadow-sm h-full overflow-hidden bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50"
+            >
+              <div class="p-6 flex flex-col h-full">
+                <div
+                  class="size-10 rounded-full bg-blue-600/10 dark:bg-blue-500/20 flex items-center justify-center text-blue-600 dark:text-blue-500 mb-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star size-5"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">24/7 Support</h3>
+                <p class="text-neutral-500 dark:text-neutral-400">
+                  Get help whenever you need it with our dedicated support team.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---How it works-->
+      <section
+        class="w-full py-20 md:py-32 bg-neutral-100/30 dark:bg-neutral-900/30 relative overflow-hidden"
+      >
+        <div
+          class="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-black bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#1f1f1f_1px,transparent_1px),linear-gradient(to_bottom,#1f1f1f_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_50%,#000_40%,transparent_100%)]"
+        ></div>
+        <div class="px-4 md:px-6 relative">
+          <div
+            class="flex flex-col items-center justify-center space-y-4 text-center mb-16"
+            style="opacity: 1; transform: none"
+          >
+            <span
+              data-slot="badge"
+              class="inline-flex items-center justify-center border w-fit whitespace-nowrap shrink-0 [&amp;&gt;svg]:size-3 gap-1 [&amp;&gt;svg]:pointer-events-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 transition-[color,box-shadow] overflow-hidden border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-white [a&amp;]:hover:bg-neutral-200 dark:hover:bg-neutral-700 mb-4 rounded-full px-4 py-1.5 text-sm font-medium"
+              >How It Works</span
+            >
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight">
+              Simple Process, Powerful Results
+            </h2>
+            <p
+              class="max-w-[800px] text-neutral-600 dark:text-neutral-400 md:text-lg"
+            >
+              Get started in minutes and see the difference our platform can
+              make for your business.
+            </p>
+          </div>
+          <div class="grid md:grid-cols-3 gap-8 md:gap-12 relative">
+            <div
+              class="hidden md:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent -translate-y-1/2 z-0"
+            ></div>
+            <div
+              class="relative z-10 flex flex-col items-center text-center space-y-4"
+              style="opacity: 1; transform: none"
+            >
+              <div
+                class="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-blue-500 text-white dark:text-neutral-900 text-xl font-bold shadow-lg"
+              >
+                01
+              </div>
+              <h3 class="text-xl font-bold">Create Account</h3>
+              <p class="text-neutral-600 dark:text-neutral-400">
+                Sign up in seconds with just your email. No credit card required
+                to get started.
+              </p>
+            </div>
+            <div
+              class="relative z-10 flex flex-col items-center text-center space-y-4"
+              style="opacity: 1; transform: none"
+            >
+              <div
+                class="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-blue-500 text-white dark:text-neutral-900 text-xl font-bold shadow-lg"
+              >
+                02
+              </div>
+              <h3 class="text-xl font-bold">Configure Workspace</h3>
+              <p class="text-neutral-600 dark:text-neutral-400">
+                Customize your workspace to match your team's unique workflow
+                and requirements.
+              </p>
+            </div>
+            <div
+              class="relative z-10 flex flex-col items-center text-center space-y-4"
+              style="opacity: 1; transform: none"
+            >
+              <div
+                class="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-blue-500 text-white dark:text-neutral-900 text-xl font-bold shadow-lg"
+              >
+                03
+              </div>
+              <h3 class="text-xl font-bold">Boost Productivity</h3>
+              <p class="text-neutral-600 dark:text-neutral-400">
+                Start using our powerful features to streamline processes and
+                achieve your goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----testimonials-->
+      <section id="testimonials" class="w-full py-20 md:py-32">
+        <div class="px-4 md:px-6">
+          <div
+            class="flex flex-col items-center justify-center space-y-4 text-center mb-12"
+            style="opacity: 1; transform: none"
+          >
+            <span
+              data-slot="badge"
+              class="inline-flex items-center justify-center border w-fit whitespace-nowrap shrink-0 [&amp;&gt;svg]:size-3 gap-1 [&amp;&gt;svg]:pointer-events-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 transition-[color,box-shadow] overflow-hidden border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-white [a&amp;]:hover:bg-neutral-200 dark:hover:bg-neutral-700 mb-4 rounded-full px-4 py-1.5 text-sm font-medium"
+              >Testimonials</span
+            >
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight">
+              Loved by Teams Worldwide
+            </h2>
+            <p
+              class="max-w-[800px] text-neutral-600 dark:text-neutral-400 md:text-lg"
+            >
+              Don't just take our word for it. See what our customers have to
+              say about their experience.
+            </p>
+          </div>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div style="opacity: 1; transform: none">
+              <div
+                data-slot="card"
+                class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 shadow-sm h-full overflow-hidden border-neutral-200 dark:border-neutral-800 bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur transition-all hover:shadow-md"
+              >
+                <div data-slot="card-content" class="p-6 flex flex-col h-full">
+                  <div class="flex mb-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-lg mb-6 flex-grow">
+                    SaaSify has transformed how we manage our projects. The
+                    automation features have saved us countless hours of manual
+                    work.
+                  </p>
+                  <div
+                    class="flex items-center gap-4 mt-auto pt-4 border-t border-neutral-200 dark:border-neutral-800"
+                  >
+                    <div
+                      class="size-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-900 dark:text-white font-medium"
+                    >
+                      S
+                    </div>
+                    <div>
+                      <p class="font-medium">Sarah Johnson</p>
+                      <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                        Project Manager, TechCorp
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="opacity: 1; transform: none">
+              <div
+                data-slot="card"
+                class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 shadow-sm h-full overflow-hidden border-neutral-200 dark:border-neutral-800 bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur transition-all hover:shadow-md"
+              >
+                <div data-slot="card-content" class="p-6 flex flex-col h-full">
+                  <div class="flex mb-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-lg mb-6 flex-grow">
+                    The analytics dashboard provides insights we never had
+                    access to before. It's helped us make data-driven decisions
+                    that have improved our ROI.
+                  </p>
+                  <div
+                    class="flex items-center gap-4 mt-auto pt-4 border-t border-neutral-200 dark:border-neutral-800"
+                  >
+                    <div
+                      class="size-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-900 dark:text-white font-medium"
+                    >
+                      M
+                    </div>
+                    <div>
+                      <p class="font-medium">Michael Chen</p>
+                      <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                        Marketing Director, GrowthLabs
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="opacity: 1; transform: none">
+              <div
+                data-slot="card"
+                class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 shadow-sm h-full overflow-hidden border-neutral-200 dark:border-neutral-800 bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur transition-all hover:shadow-md"
+              >
+                <div data-slot="card-content" class="p-6 flex flex-col h-full">
+                  <div class="flex mb-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-lg mb-6 flex-grow">
+                    Customer support is exceptional. Any time we've had an
+                    issue, the team has been quick to respond and resolve it.
+                    Couldn't ask for better service.
+                  </p>
+                  <div
+                    class="flex items-center gap-4 mt-auto pt-4 border-t border-neutral-200 dark:border-neutral-800"
+                  >
+                    <div
+                      class="size-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-900 dark:text-white font-medium"
+                    >
+                      E
+                    </div>
+                    <div>
+                      <p class="font-medium">Emily Rodriguez</p>
+                      <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                        Operations Lead, StartupX
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="opacity: 1; transform: none">
+              <div
+                data-slot="card"
+                class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 shadow-sm h-full overflow-hidden border-neutral-200 dark:border-neutral-800 bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur transition-all hover:shadow-md"
+              >
+                <div data-slot="card-content" class="p-6 flex flex-col h-full">
+                  <div class="flex mb-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-lg mb-6 flex-grow">
+                    We've tried several similar solutions, but none compare to
+                    the ease of use and comprehensive features of SaaSify. It's
+                    been a game-changer.
+                  </p>
+                  <div
+                    class="flex items-center gap-4 mt-auto pt-4 border-t border-neutral-200 dark:border-neutral-800"
+                  >
+                    <div
+                      class="size-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-900 dark:text-white font-medium"
+                    >
+                      D
+                    </div>
+                    <div>
+                      <p class="font-medium">David Kim</p>
+                      <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                        CEO, InnovateNow
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="opacity: 1; transform: none">
+              <div
+                data-slot="card"
+                class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 shadow-sm h-full overflow-hidden border-neutral-200 dark:border-neutral-800 bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur transition-all hover:shadow-md"
+              >
+                <div data-slot="card-content" class="p-6 flex flex-col h-full">
+                  <div class="flex mb-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-lg mb-6 flex-grow">
+                    The collaboration tools have made remote work so much easier
+                    for our team. We're more productive than ever despite being
+                    spread across different time zones.
+                  </p>
+                  <div
+                    class="flex items-center gap-4 mt-auto pt-4 border-t border-neutral-200 dark:border-neutral-800"
+                  >
+                    <div
+                      class="size-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-900 dark:text-white font-medium"
+                    >
+                      L
+                    </div>
+                    <div>
+                      <p class="font-medium">Lisa Patel</p>
+                      <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                        HR Director, RemoteFirst
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="opacity: 1; transform: none">
+              <div
+                data-slot="card"
+                class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 shadow-sm h-full overflow-hidden border-neutral-200 dark:border-neutral-800 bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur transition-all hover:shadow-md"
+              >
+                <div data-slot="card-content" class="p-6 flex flex-col h-full">
+                  <div class="flex mb-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path></svg
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star size-4 text-yellow-500 fill-yellow-500"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-lg mb-6 flex-grow">
+                    Implementation was seamless, and the ROI was almost
+                    immediate. We've reduced our operational costs by 30% since
+                    switching to SaaSify.
+                  </p>
+                  <div
+                    class="flex items-center gap-4 mt-auto pt-4 border-t border-neutral-200 dark:border-neutral-800"
+                  >
+                    <div
+                      class="size-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-900 dark:text-white font-medium"
+                    >
+                      J
+                    </div>
+                    <div>
+                      <p class="font-medium">James Wilson</p>
+                      <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                        COO, ScaleUp Inc
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---pricing-->
+      <section
+        id="pricing"
+        class="w-full py-20 md:py-32 bg-neutral-100/30 dark:bg-neutral-900/30 relative overflow-hidden"
+      >
+        <!---background-->
+        <div
+          class="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-black bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#1f1f1f_1px,transparent_1px),linear-gradient(to_bottom,#1f1f1f_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_50%,#000_40%,transparent_100%)]"
+        ></div>
+        <div class="px-4 md:px-6 relative">
+          <!---heading-->
+          <div
+            class="flex flex-col items-center justify-center space-y-4 text-center mb-12"
+            style="opacity: 1; transform: none"
+          >
+            <span
+              data-slot="badge"
+              class="inline-flex items-center justify-center border w-fit whitespace-nowrap shrink-0 [&amp;&gt;svg]:size-3 gap-1 [&amp;&gt;svg]:pointer-events-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 transition-[color,box-shadow] overflow-hidden border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-white [a&amp;]:hover:bg-neutral-200 dark:hover:bg-neutral-700 mb-4 rounded-full px-4 py-1.5 text-sm font-medium"
+              >Pricing</span
+            >
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight">
+              Simple, Transparent Pricing
+            </h2>
+            <p
+              class="max-w-[800px] text-neutral-600 dark:text-neutral-400 md:text-lg"
+            >
+              Choose the plan that's right for your business. All plans include
+              a 14-day free trial.
+            </p>
+          </div>
+          <!---tabs-->
+          <div class="mx-auto max-w-5xl">
+            <div
+              dir="ltr"
+              data-orientation="horizontal"
+              data-slot="tabs"
+              class="flex flex-col gap-2 w-full"
+            >
+              <!---tabs btns-->
+              <div class="flex justify-center mb-8">
+                <div
+                  role="tablist"
+                  aria-orientation="horizontal"
+                  data-slot="tabs-list"
+                  class="bg-muted text-neutral-600 dark:text-neutral-400 inline-flex w-fit items-center justify-center rounded-full p-1 py-4 h-10"
+                  tabindex="0"
+                  data-orientation="horizontal"
+                  style="outline: none"
+                >
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="radix-«r0»-content-monthly"
+                    data-state="inactive"
+                    id="radix-«r0»-trigger-monthly"
+                    data-slot="tabs-trigger"
+                    class="data-[state=active]:bg-background focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-foreground dark:text-neutral-600 dark:text-neutral-400 inline-flex h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 border border-transparent font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 rounded-full px-6 text-base py-4 dark:data-[state=active]:text-blue-600-foreground dark:data-[state=active]:bg-white"
+                    tabindex="-1"
+                    data-orientation="horizontal"
+                    data-radix-collection-item=""
+                  >
+                    Monthly</button
+                  ><button
+                    type="button"
+                    role="tab"
+                    aria-selected="true"
+                    aria-controls="radix-«r0»-content-annually"
+                    data-state="active"
+                    id="radix-«r0»-trigger-annually"
+                    data-slot="tabs-trigger"
+                    class="data-[state=active]:bg-background focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-foreground dark:text-neutral-600 dark:text-neutral-400 inline-flex h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 border border-transparent font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 rounded-full px-6 text-base py-4 dark:data-[state=active]:text-blue-600-foreground dark:data-[state=active]:bg-white"
+                    tabindex="0"
+                    data-orientation="horizontal"
+                    data-radix-collection-item=""
+                  >
+                    Annually (Save 20%)
+                  </button>
+                </div>
+              </div>
+              <div
+                data-state="active"
+                data-orientation="horizontal"
+                role="tabpanel"
+                aria-labelledby="radix-«r0»-trigger-monthly"
+                id="radix-«r0»-content-monthly"
+                tabindex="0"
+                data-slot="tabs-content"
+                class="flex-1 outline-none"
+              >
+                <div class="grid gap-6 lg:grid-cols-3 lg:gap-8">
+                  <div style="opacity: 1; transform: none">
+                    <div
+                      data-slot="card"
+                      class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 relative overflow-hidden h-full border-neutral-200 dark:border-neutral-800 shadow-md bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur"
+                    >
+                      <div
+                        data-slot="card-content"
+                        class="p-6 flex flex-col h-full"
+                      >
+                        <h3 class="text-2xl font-bold">Starter</h3>
+                        <div class="flex items-baseline mt-4">
+                          <span class="text-4xl font-bold">$29</span
+                          ><span
+                            class="text-neutral-600 dark:text-neutral-400 ml-1"
+                            >/month</span
+                          >
+                        </div>
+                        <p class="text-neutral-600 dark:text-neutral-400 mt-2">
+                          Perfect for small teams and startups.
+                        </p>
+                        <ul class="space-y-3 my-6 flex-grow">
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Up to 5 team members</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Basic analytics</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>5GB storage</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Email support</span>
+                          </li>
+                        </ul>
+                        <button
+                          data-slot="button"
+                          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs hover:text-neutral-900 dark:hover:text-white dark:bg-neutral-800/30 dark:border-neutral-800 dark:hover:bg-neutral-800/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full mt-auto rounded-full bg-muted hover:bg-muted/80"
+                        >
+                          Start Free Trial
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="opacity: 1; transform: none">
+                    <div
+                      data-slot="card"
+                      class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 relative overflow-hidden h-full border-primary shadow-lg bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur"
+                    >
+                      <div
+                        class="absolute top-0 right-0 bg-blue-600 text-blue-600-foreground px-3 py-1 text-xs font-medium rounded-bl-lg"
+                      >
+                        Most Popular
+                      </div>
+                      <div
+                        data-slot="card-content"
+                        class="p-6 flex flex-col h-full"
+                      >
+                        <h3 class="text-2xl font-bold">Professional</h3>
+                        <div class="flex items-baseline mt-4">
+                          <span class="text-4xl font-bold">$79</span
+                          ><span
+                            class="text-neutral-600 dark:text-neutral-400 ml-1"
+                            >/month</span
+                          >
+                        </div>
+                        <p class="text-neutral-600 dark:text-neutral-400 mt-2">
+                          Ideal for growing businesses.
+                        </p>
+                        <ul class="space-y-3 my-6 flex-grow">
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Up to 20 team members</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Advanced analytics</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>25GB storage</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Priority email support</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>API access</span>
+                          </li>
+                        </ul>
+                        <button
+                          data-slot="button"
+                          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive text-blue-600-foreground shadow-xs h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full mt-auto rounded-full bg-blue-600 hover:bg-blue-600/90"
+                        >
+                          Start Free Trial
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="opacity: 1; transform: none">
+                    <div
+                      data-slot="card"
+                      class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 relative overflow-hidden h-full border-neutral-200 dark:border-neutral-800 shadow-md bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur"
+                    >
+                      <div
+                        data-slot="card-content"
+                        class="p-6 flex flex-col h-full"
+                      >
+                        <h3 class="text-2xl font-bold">Enterprise</h3>
+                        <div class="flex items-baseline mt-4">
+                          <span class="text-4xl font-bold">$199</span
+                          ><span
+                            class="text-neutral-600 dark:text-neutral-400 ml-1"
+                            >/month</span
+                          >
+                        </div>
+                        <p class="text-neutral-600 dark:text-neutral-400 mt-2">
+                          For large organizations with complex needs.
+                        </p>
+                        <ul class="space-y-3 my-6 flex-grow">
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Unlimited team members</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Custom analytics</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Unlimited storage</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>24/7 phone &amp; email support</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Advanced API access</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Custom integrations</span>
+                          </li>
+                        </ul>
+                        <button
+                          data-slot="button"
+                          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs hover:text-neutral-900 dark:hover:text-white dark:bg-neutral-800/30 dark:border-neutral-800 dark:hover:bg-neutral-800/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full mt-auto rounded-full bg-muted hover:bg-muted/80"
+                        >
+                          Contact Sales
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-state="active"
+                data-orientation="horizontal"
+                role="tabpanel"
+                aria-labelledby="radix-«r0»-trigger-annually"
+                id="radix-«r0»-content-annually"
+                tabindex="0"
+                data-slot="tabs-content"
+                class="flex-1 outline-none"
+              >
+                <div class="grid gap-6 lg:grid-cols-3 lg:gap-8">
+                  <div style="opacity: 1; transform: none">
+                    <div
+                      data-slot="card"
+                      class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 relative overflow-hidden h-full border-neutral-200 dark:border-neutral-800 shadow-md bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur"
+                    >
+                      <div
+                        data-slot="card-content"
+                        class="p-6 flex flex-col h-full"
+                      >
+                        <h3 class="text-2xl font-bold">Starter</h3>
+                        <div class="flex items-baseline mt-4">
+                          <span class="text-4xl font-bold">$23</span
+                          ><span
+                            class="text-neutral-600 dark:text-neutral-400 ml-1"
+                            >/month</span
+                          >
+                        </div>
+                        <p class="text-neutral-600 dark:text-neutral-400 mt-2">
+                          Perfect for small teams and startups.
+                        </p>
+                        <ul class="space-y-3 my-6 flex-grow">
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Up to 5 team members</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Basic analytics</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>5GB storage</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Email support</span>
+                          </li>
+                        </ul>
+                        <button
+                          data-slot="button"
+                          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs hover:text-neutral-900 dark:hover:text-white dark:bg-neutral-800/30 dark:border-neutral-800 dark:hover:bg-neutral-800/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full mt-auto rounded-full bg-muted hover:bg-muted/80"
+                        >
+                          Start Free Trial
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="opacity: 1; transform: none">
+                    <div
+                      data-slot="card"
+                      class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 relative overflow-hidden h-full border-primary shadow-lg bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur"
+                    >
+                      <div
+                        class="absolute top-0 right-0 bg-blue-600 text-blue-600-foreground px-3 py-1 text-xs font-medium rounded-bl-lg"
+                      >
+                        Most Popular
+                      </div>
+                      <div
+                        data-slot="card-content"
+                        class="p-6 flex flex-col h-full"
+                      >
+                        <h3 class="text-2xl font-bold">Professional</h3>
+                        <div class="flex items-baseline mt-4">
+                          <span class="text-4xl font-bold">$63</span
+                          ><span
+                            class="text-neutral-600 dark:text-neutral-400 ml-1"
+                            >/month</span
+                          >
+                        </div>
+                        <p class="text-neutral-600 dark:text-neutral-400 mt-2">
+                          Ideal for growing businesses.
+                        </p>
+                        <ul class="space-y-3 my-6 flex-grow">
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Up to 20 team members</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Advanced analytics</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>25GB storage</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Priority email support</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>API access</span>
+                          </li>
+                        </ul>
+                        <button
+                          data-slot="button"
+                          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive text-blue-600-foreground shadow-xs h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full mt-auto rounded-full bg-blue-600 hover:bg-blue-600/90"
+                        >
+                          Start Free Trial
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="opacity: 1; transform: none">
+                    <div
+                      data-slot="card"
+                      class="text-neutral-900 dark:text-white flex flex-col gap-6 rounded-xl border py-6 relative overflow-hidden h-full border-neutral-200 dark:border-neutral-800 shadow-md bg-gradient-to-b from-white dark:from-neutral-950 to-neutral-100/10 dark:to-neutral-800/10 backdrop-blur"
+                    >
+                      <div
+                        data-slot="card-content"
+                        class="p-6 flex flex-col h-full"
+                      >
+                        <h3 class="text-2xl font-bold">Enterprise</h3>
+                        <div class="flex items-baseline mt-4">
+                          <span class="text-4xl font-bold">$159</span
+                          ><span
+                            class="text-neutral-600 dark:text-neutral-400 ml-1"
+                            >/month</span
+                          >
+                        </div>
+                        <p class="text-neutral-600 dark:text-neutral-400 mt-2">
+                          For large organizations with complex needs.
+                        </p>
+                        <ul class="space-y-3 my-6 flex-grow">
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Unlimited team members</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Custom analytics</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Unlimited storage</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>24/7 phone &amp; email support</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Advanced API access</span>
+                          </li>
+                          <li class="flex items-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check mr-2 size-4 text-blue-600"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path></svg
+                            ><span>Custom integrations</span>
+                          </li>
+                        </ul>
+                        <button
+                          data-slot="button"
+                          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs hover:text-neutral-900 dark:hover:text-white dark:bg-neutral-800/30 dark:border-neutral-800 dark:hover:bg-neutral-800/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full mt-auto rounded-full bg-muted hover:bg-muted/80"
+                        >
+                          Contact Sales
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="w-full py-20 md:py-32">
+        <div class="px-4 md:px-6">
+          <div
+            class="flex flex-col items-center justify-center space-y-4 text-center mb-12"
+            style="opacity: 0; transform: translateY(20px)"
+          >
+            <span
+              data-slot="badge"
+              class="inline-flex items-center justify-center border w-fit whitespace-nowrap shrink-0 [&amp;&gt;svg]:size-3 gap-1 [&amp;&gt;svg]:pointer-events-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 transition-[color,box-shadow] overflow-hidden border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-white [a&amp;]:hover:bg-neutral-200 dark:hover:bg-neutral-700 mb-4 rounded-full px-4 py-1.5 text-sm font-medium"
+              >FAQ</span
+            >
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight">
+              Frequently Asked Questions
+            </h2>
+            <p
+              class="max-w-[800px] text-neutral-500 dark:text-neutral-400 md:text-lg"
+            >
+              Find answers to common questions about our platform.
+            </p>
+          </div>
+          <div class="mx-auto max-w-3xl">
+            <div
+              data-slot="accordion"
+              class="w-full"
+              data-orientation="vertical"
+            >
+              <div style="opacity: 0; transform: translateY(10px)">
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  data-slot="accordion-item"
+                  class="border-b last:border-b-0"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                  >
+                    <button
+                      type="button"
+                      aria-controls="radix-«r4»"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-«r3»"
+                      data-slot="accordion-trigger"
+                      class="focus-visible:ring-blue-600/50 flex flex-1 items-start justify-between gap-4 rounded-md py-4 transition-all outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-medium text-base"
+                      data-radix-collection-item=""
+                    >
+                      How does the 14-day free trial work?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down text-neutral-500 dark:text-neutral-400 pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-«r4»"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-«r3»"
+                    data-orientation="vertical"
+                    data-slot="accordion-content"
+                    class="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm"
+                    style="
+                      --radix-accordion-content-height: var(
+                        --radix-collapsible-content-height
+                      );
+                      --radix-accordion-content-width: var(
+                        --radix-collapsible-content-width
+                      );
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div style="opacity: 0; transform: translateY(10px)">
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  data-slot="accordion-item"
+                  class="border-b last:border-b-0"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                  >
+                    <button
+                      type="button"
+                      aria-controls="radix-«r6»"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-«r5»"
+                      data-slot="accordion-trigger"
+                      class="focus-visible:ring-blue-600/50 flex flex-1 items-start justify-between gap-4 rounded-md py-4 transition-all outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-medium text-base"
+                      data-radix-collection-item=""
+                    >
+                      Can I change plans later?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down text-neutral-500 dark:text-neutral-400 pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-«r6»"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-«r5»"
+                    data-orientation="vertical"
+                    data-slot="accordion-content"
+                    class="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm"
+                    style="
+                      --radix-accordion-content-height: var(
+                        --radix-collapsible-content-height
+                      );
+                      --radix-accordion-content-width: var(
+                        --radix-collapsible-content-width
+                      );
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div style="opacity: 0; transform: translateY(10px)">
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  data-slot="accordion-item"
+                  class="border-b last:border-b-0"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                  >
+                    <button
+                      type="button"
+                      aria-controls="radix-«r8»"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-«r7»"
+                      data-slot="accordion-trigger"
+                      class="focus-visible:ring-blue-600/50 flex flex-1 items-start justify-between gap-4 rounded-md py-4 transition-all outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-medium text-base"
+                      data-radix-collection-item=""
+                    >
+                      Is there a limit to how many users I can add?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down text-neutral-500 dark:text-neutral-400 pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-«r8»"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-«r7»"
+                    data-orientation="vertical"
+                    data-slot="accordion-content"
+                    class="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm"
+                    style="
+                      --radix-accordion-content-height: var(
+                        --radix-collapsible-content-height
+                      );
+                      --radix-accordion-content-width: var(
+                        --radix-collapsible-content-width
+                      );
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div style="opacity: 0; transform: translateY(10px)">
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  data-slot="accordion-item"
+                  class="border-b last:border-b-0"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                  >
+                    <button
+                      type="button"
+                      aria-controls="radix-«ra»"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-«r9»"
+                      data-slot="accordion-trigger"
+                      class="focus-visible:ring-blue-600/50 flex flex-1 items-start justify-between gap-4 rounded-md py-4 transition-all outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-medium text-base"
+                      data-radix-collection-item=""
+                    >
+                      Do you offer discounts for nonprofits or educational
+                      institutions?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down text-neutral-500 dark:text-neutral-400 pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-«ra»"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-«r9»"
+                    data-orientation="vertical"
+                    data-slot="accordion-content"
+                    class="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm"
+                    style="
+                      --radix-accordion-content-height: var(
+                        --radix-collapsible-content-height
+                      );
+                      --radix-accordion-content-width: var(
+                        --radix-collapsible-content-width
+                      );
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div style="opacity: 0; transform: translateY(10px)">
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  data-slot="accordion-item"
+                  class="border-b last:border-b-0"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                  >
+                    <button
+                      type="button"
+                      aria-controls="radix-«rc»"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-«rb»"
+                      data-slot="accordion-trigger"
+                      class="focus-visible:ring-blue-600/50 flex flex-1 items-start justify-between gap-4 rounded-md py-4 transition-all outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-medium text-base"
+                      data-radix-collection-item=""
+                    >
+                      How secure is my data?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down text-neutral-500 dark:text-neutral-400 pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-«rc»"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-«rb»"
+                    data-orientation="vertical"
+                    data-slot="accordion-content"
+                    class="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm"
+                    style="
+                      --radix-accordion-content-height: var(
+                        --radix-collapsible-content-height
+                      );
+                      --radix-accordion-content-width: var(
+                        --radix-collapsible-content-width
+                      );
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div style="opacity: 0; transform: translateY(10px)">
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  data-slot="accordion-item"
+                  class="border-b last:border-b-0"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                  >
+                    <button
+                      type="button"
+                      aria-controls="radix-«re»"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-«rd»"
+                      data-slot="accordion-trigger"
+                      class="focus-visible:ring-blue-600/50 flex flex-1 items-start justify-between gap-4 rounded-md py-4 transition-all outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-medium text-base"
+                      data-radix-collection-item=""
+                    >
+                      What kind of support do you offer?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down text-neutral-500 dark:text-neutral-400 pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-«re»"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-«rd»"
+                    data-orientation="vertical"
+                    data-slot="accordion-content"
+                    class="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm"
+                    style="
+                      --radix-accordion-content-height: var(
+                        --radix-collapsible-content-height
+                      );
+                      --radix-accordion-content-width: var(
+                        --radix-collapsible-content-width
+                      );
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="w-full py-20 md:py-32 bg-gradient-to-br from-blue-600 to-blue-500 dark:from-gray-100 dark:to-gray-500 text-white dark:text-neutral-900 relative overflow-hidden"
+      >
+        <div
+          class="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:4rem_4rem]"
+        ></div>
+        <div
+          class="absolute -top-24 -left-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"
+        ></div>
+        <div
+          class="absolute -bottom-24 -right-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"
+        ></div>
+        <div class="px-4 md:px-6 relative">
+          <div
+            class="flex flex-col items-center justify-center space-y-6 text-center"
+            style="opacity: 0; transform: translateY(20px)"
+          >
+            <h2
+              class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight"
+            >
+              Ready to Transform Your Workflow?
+            </h2>
+            <p
+              class="mx-auto max-w-[700px] text-white dark:text-neutral-900/80 md:text-xl"
+            >
+              Join thousands of satisfied customers who have streamlined their
+              processes and boosted productivity with our platform.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 mt-4">
+              <button
+                data-slot="button"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-white shadow-xs hover:bg-neutral-200 dark:hover:bg-neutral-700 has-[&gt;svg]:px-4 rounded-full h-12 px-8 text-base cursor-pointer group"
+              >
+                Start Free Trial<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-right group-hover:translate-x-1 transition-all ease-in-out duration-200 size-4"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg></button
+              ><button
+                data-slot="button"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-blue-600/50 focus-visible:ring-[3px] aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/20 dark:aria-invalid:ring-red-500 dark:aria-invalid:ring-red-800/40 aria-invalid:border-red-500 border shadow-xs dark:border-neutral-800 has-[&gt;svg]:px-4 rounded-full h-12 px-8 text-base bg-transparent border-white text-white hover:text-white hover:bg-white/10 cursor-pointer dark:text-neutral-700 dark:bg-white dark:hover:bg-gray-100"
+              >
+                Schedule a Demo
+              </button>
+            </div>
+            <p class="text-sm text-white dark:text-neutral-900/80 mt-4">
+              No credit card required. 14-day free trial. Cancel anytime.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="w-full border-t bg-white dark:bg-neutral-950/95 backdrop-blur-sm"
+    >
+      <div class="flex flex-col gap-8 px-4 py-10 md:px-20 lg:py-16">
+        <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
+          <div class="space-y-4">
+            <div class="flex items-center gap-2 font-bold text-base">
+              <div
+                class="size-8 rounded-lg bg-gradient-to-br from-blue-600 to-blue-500 flex items-center justify-center text-white dark:text-neutral-900"
+              >
+                N
+              </div>
+              <span>Nexora</span>
+            </div>
+            <p class="text-sm text-neutral-500 dark:text-neutral-400">
+              Streamline your workflow with our all-in-one SaaS platform. Boost
+              productivity and scale your business.
+            </p>
+            <div class="flex gap-4">
+              <a
+                class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="size-5"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  ></path></svg
+                ><span class="sr-only">Facebook</span></a
+              ><a
+                class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="size-5"
+                >
+                  <path
+                    d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                  ></path></svg
+                ><span class="sr-only">Twitter</span></a
+              ><a
+                class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="size-5"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  ></path>
+                  <rect width="4" height="12" x="2" y="9"></rect>
+                  <circle cx="4" cy="4" r="2"></circle></svg
+                ><span class="sr-only">LinkedIn</span></a
+              >
+            </div>
+          </div>
+          <div class="space-y-4">
+            <h4 class="text-lg font-bold">Product</h4>
+            <ul class="space-y-2 text-base">
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/features"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/pricing"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/integrations"
+                  >Integrations</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/api-reference"
+                  >API</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="space-y-4">
+            <h4 class="text-lg font-bold">Resources</h4>
+            <ul class="space-y-2 text-base">
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/doc"
+                  >Documentation</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/guides"
+                  >Guides</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/blogs"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/"
+                  >Support</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="space-y-4">
+            <h4 class="text-lg font-bold">Company</h4>
+            <ul class="space-y-2 text-base">
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/about-us"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/careers"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/privacy-policy"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+                  href="/contact-us"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-4 sm:flex-row justify-between items-center border-t border-neutral-200 dark:border-neutral-800/40 pt-8"
+        >
+          <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            © 2026 Nexora. All rights reserved.
+          </p>
+          <div class="flex gap-4">
+            <a
+              class="text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+              href="/privacy-policy"
+              >Privacy Policy</a
+            ><a
+              class="text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+              href="/"
+              >Terms of Service</a
+            ><a
+              class="text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors"
+              href="/"
+              >Cookie Policy</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
