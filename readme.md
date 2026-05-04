@@ -34,7 +34,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 View on Vercel [(your-vercel-app.vercel.app in Bing)]
+👉 View on Vercel [(https://nexora-landing-page-cyan.vercel.app/)]
 
 ---
 
